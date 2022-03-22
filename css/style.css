@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Bungee', cursive;
+}
+
 header{
     position: fixed;
     z-index: 10;
@@ -21,7 +29,7 @@ header{
     text-decoration: none;
     font-size: 20px;
     font-weight: 800;
-    margin: 15px;
+    margin: 30px 15px 0 15px;
 }
 
 section{
@@ -31,6 +39,14 @@ section{
 
 #first-shoes{
     background-color: red;
+}
+
+#second-shoes{
+    background-color: green;
+}
+
+#third-shoes{
+    background-color: yellow;
 }
 
 section .container{
@@ -43,7 +59,11 @@ section .container{
 
 .container h1{
     color: yellow;
-    font-size: 60px;
+    font-size: 50px;
     
+}
+
+.container .green{
+    color: green;
 }
 
