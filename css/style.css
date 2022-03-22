@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: white;
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 15px;
+}
+
+section{
+    position: relative;   
+    height: 100vh;
+}
+
+#first-shoes{
+    background-color: red;
+}
+
+section .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container h1{
+    color: yellow;
+    font-size: 60px;
+    
+}
+
